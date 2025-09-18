@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "341704564626",
+    "project_id": "viralbanana-cc261",
+    "storage_bucket": "viralbanana-cc261.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341704564626:android:f3499051199693a1ca2b4b",
+        "android_client_info": {
+          "package_name": "com.example.viral_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8NiHREi6wD4HNKwSVki3aKg5RRstoIUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
