@@ -9,6 +9,8 @@
 - Methods should return Future<Model> or Stream<Model>, not raw types.
 - All fields and helpers are private.
 - Inline doc comments for each non-obvious field or method.
+- Minimize boilerplate → extract reusable helpers, refactor common patterns, and avoid duplicating logic across methods or services.
+- Keep it Simple: Minimal, focused code.
 
 # Exemple:
 class FooFirestoreService {
@@ -25,3 +27,4 @@ class FooFirestoreService {
     });
   }
 }
+

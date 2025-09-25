@@ -4,17 +4,16 @@
 - Inside *rich states* (like `Loaded`), use `enum` for **fixed sub-status sets**.
 - Use extension methods for enum utilities.
 - Use `final class` with `Equatable` for immutable state.
-- Provide default values in constructors.
+- Provide default values in constructors when logic to do it.
 - Use nullable constructor params with fallback (`??`) for defaults.
 - Implement `copyWith` for state updates.
-- Override `props` for value equality.
-- Organize state as final fields.
 - Organise the properties of the state:
     - Maintain a **consistent ordering pattern** across all states to improve readability.
     - **By category** → group related fields together.
     - **By importance / usage** → place the most important fields first (e.g. status, then main data, then flags).
     - **Specify each category only once in the constructor parameter list** as a `//` comment. Do **not** repeat the category labels
 - Add `///` comments for fields or methods whose purpose isn’t obvious from the name.
+- Minimize boilerplate → extract reusable helpers, refactor common patterns, and avoid duplicating logic across methods or services.
 - Keep it Simple: Minimal, focused code.
 
 # Exemple:

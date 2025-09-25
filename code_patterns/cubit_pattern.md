@@ -1,11 +1,13 @@
 # Rules:
 - Split state and logic into separate files with `part`.
 - Use `Cubit<State>` from `bloc` package for state management.
-- Inject repositories via constructor.
+- Inject repositories or service via constructor OR Use singleton if service are singleton.
 - Expose async methods for loading/updating state.
 - Guard early returns for null/invalid parameters and error states.
-- Apply optimistic updates: emit state with updated data before awaiting async call, then reconcile on success/failure.
-- Guard against concurrent calls (e.g., track loading/updating state and return early if already loading/updating).
+- Apply optimistic updates when necessary: emit state with updated data before awaiting async call, then reconcile on success/failure.
+- Guard against concurrent calls when necessary (e.g., track loading/updating state and return early if already loading/updating).
+- Minimize boilerplate → extract reusable helpers, refactor common patterns, and avoid duplicating logic across methods or services.
+- Keep it Simple: Minimal, focused code.
 
 # Exemple:
 

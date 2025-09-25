@@ -1,0 +1,9 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+- Keep things as simple as possible
+- Don’t create functions that are not necessary / used yet 
+- Log when error, but don’t when success (Logger)

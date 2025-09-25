@@ -1,1 +1,60 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"viralbanana-cc261","appId":"1:341704564626:android:f3499051199693a1ca2b4b","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"viralbanana-cc261","appId":"1:341704564626:ios:bb15612999fed73aca2b4b","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"macos":{"default":{"projectId":"viralbanana-cc261","appId":"1:341704564626:ios:bb15612999fed73aca2b4b","uploadDebugSymbols":false,"fileOutput":"macos/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"viralbanana-cc261","configurations":{"android":"1:341704564626:android:f3499051199693a1ca2b4b","ios":"1:341704564626:ios:bb15612999fed73aca2b4b","macos":"1:341704564626:ios:bb15612999fed73aca2b4b","web":"1:341704564626:web:1605d4497bab4d8cca2b4b","windows":"1:341704564626:web:42593672bb5271c7ca2b4b"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "viralbanana-cc261",
+          "appId": "1:341704564626:android:f3499051199693a1ca2b4b",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "viralbanana-cc261",
+          "appId": "1:341704564626:ios:bb15612999fed73aca2b4b",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "viralbanana-cc261",
+          "appId": "1:341704564626:ios:bb15612999fed73aca2b4b",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "viralbanana-cc261",
+          "configurations": {
+            "android": "1:341704564626:android:f3499051199693a1ca2b4b",
+            "ios": "1:341704564626:ios:bb15612999fed73aca2b4b",
+            "macos": "1:341704564626:ios:bb15612999fed73aca2b4b",
+            "web": "1:341704564626:web:1605d4497bab4d8cca2b4b",
+            "windows": "1:341704564626:web:42593672bb5271c7ca2b4b"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "emulators": {
+    "functions": {
+      "port": 5001,
+      "maxRequestBodySize": "32mb"
+    }
+  }
+}

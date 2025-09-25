@@ -12,12 +12,13 @@
     - Use `Theme.of(context)` for Colors/text styles
     - Use `AppColors` for custom colors not in theme
     - Use `AppDimensions` class for spacing and sizing
-- **Keep it Simple**: Minimal, focused code
+- Minimize boilerplate → extract reusable helpers, refactor common patterns, and avoid duplicating logic across methods or services.
+- Keep it Simple: Minimal, focused code.
 
 ## Widget Architecture
 
 - **Optional Wrappers**: `Scaffold`, `StatefulWidget`, `Cubit` state, `BlocConsumer`/`BlocBuilder` are **tools, not mandates** — use them if the page’s complexity requires it.
-- **Scaffold Wrapper**: `[Name]Scaffold` with Scaffold, AppBar, BottomAppBar, etc.
+- **Scaffold Wrapper**: `[Name]Scaffold` with Scaffold, AppBar, BottomAppBar, etc. Only if not embeddedd in a scaffold already.
 - **Main Page**: `[Name]Page` as Stateless/Stateful widget, state-driven via BLoC when needed
     1. State variables (private)
     2. Simple action methods (if multi-step)
@@ -33,7 +34,7 @@
     - Use **`BlocBuilder`** if only building UI from state
     - Use **`BlocConsumer`** if you need both state-driven UI and side-effects (e.g., navigation, error handling)
 - **All Logic in Cubit**: Widgets = presentation only
-- **Error:** Don’t use snack bar for notifying user, manage the error state display conditionally directly
+- **Error:** Don’t use snack bar for success but use it for showing error to user.
 
 # Example
 
