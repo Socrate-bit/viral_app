@@ -5,7 +5,7 @@ import '../../../data/repositories/cloud_ai_service.dart';
 import '../../../data/models/pack.dart';
 import '../usage/token_cubit.dart';
 import '../image_gallery/gallery_cubit.dart';
-import '../../../core/utils/logger.dart';
+import '../../../core/logger.dart';
 
 part 'pack_generation_state.dart';
 

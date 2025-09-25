@@ -5,7 +5,7 @@ import '../../../data/models/pack.dart';
 import '../../../data/models/gallery_image.dart';
 import '../image_detail/image_detail_page.dart';
 import 'pack_generation_cubit.dart';
-import '../../../core/utils/logger.dart';
+import '../../../core/logger.dart';
 
 class PackPreviewModal extends StatefulWidget {
   final Pack pack;

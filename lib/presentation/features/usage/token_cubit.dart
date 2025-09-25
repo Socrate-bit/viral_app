@@ -3,7 +3,7 @@ import 'dart:async';
 import '../../../data/repositories/firebase_service.dart';
 import 'package:superwallkit_flutter/superwallkit_flutter.dart';
 import 'token_state.dart';
-import '../../../core/utils/logger.dart';
+import '../../../core/logger.dart';
 
 class TokenCubit extends Cubit<TokenState> {
   TokenCubit() : super(TokenInitial());

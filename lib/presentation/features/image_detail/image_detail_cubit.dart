@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:viral_app/presentation/features/image_gallery/gallery_cubit.dart';
 import '../../../data/models/gallery_image.dart';
 import 'image_detail_state.dart';
-import '../../../core/utils/logger.dart';
+import '../../../core/logger.dart';
 
 class ImageDetailCubit extends Cubit<ImageDetailState> {
   ImageDetailCubit(this._galleryCubit) : super(ImageDetailInitial());

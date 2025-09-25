@@ -16,6 +16,4 @@ class AppTheme {
 
   // TextTheme (loaded from AppFont)
   static TextTheme get textTheme => AppFont.textTheme;
-
-  // Custom element theme (add as needed)
 }

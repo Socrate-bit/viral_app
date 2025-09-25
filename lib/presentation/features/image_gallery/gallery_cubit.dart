@@ -6,7 +6,7 @@ import 'dart:typed_data';
 import '../authentication/auth_service.dart';
 import '../../../data/repositories/firebase_service.dart';
 import '../../../data/models/gallery_image.dart';
-import '../../../core/utils/logger.dart';
+import '../../../core/logger.dart';
 
 part 'gallery_state.dart';
 

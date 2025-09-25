@@ -3,7 +3,7 @@ import 'package:equatable/equatable.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import '../../../data/repositories/firebase_service.dart';
 import '../../../data/models/pack.dart';
-import '../../../core/utils/logger.dart';
+import '../../../core/logger.dart';
 
 part 'packs_state.dart';
 

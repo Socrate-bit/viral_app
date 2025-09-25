@@ -12,7 +12,7 @@ import '../../../data/repositories/firebase_service.dart';
 import '../authentication/auth_service.dart';
 import '../image_gallery/gallery_cubit.dart';
 import '../usage/token_cubit.dart';
-import '../../../core/utils/logger.dart';
+import '../../../core/logger.dart';
 
 class EditingCubit extends Cubit<EditingState> {
   EditingCubit({GalleryCubit? galleryCubit, TokenCubit? tokenCubit})

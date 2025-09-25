@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:cloud_functions/cloud_functions.dart';
 import '../models/prompt_suggestion.dart';
 import '../../presentation/features/usage/token_cubit.dart';
-import '../../core/utils/logger.dart';
+import '../../core/logger.dart';
 
 class CloudAIService {
   static final CloudAIService _instance = CloudAIService._internal();

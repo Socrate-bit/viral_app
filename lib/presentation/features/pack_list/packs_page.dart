@@ -9,7 +9,7 @@ import '../pack_generation/pack_generation_cubit.dart';
 import '../pack_generation/pack_preview_modal.dart';
 import 'packs_cubit.dart';
 import 'dart:io';
-import '../../../core/utils/logger.dart';
+import '../../../core/logger.dart';
 
 class PacksPage extends StatelessWidget {
   const PacksPage({super.key});
